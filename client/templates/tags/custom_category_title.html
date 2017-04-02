@@ -1,0 +1,45 @@
+<template name="custom_category_title">
+   {{#if categories}}
+    <div class="category-heading-wrapper post-list-title">
+      {{#each categories}}
+        <div class="category-heading">
+          <div class="category-title">
+            {{#with categoryParents}}
+              <div class="category-parents">
+                {{#each this}}
+                  <a href="{{this.getUrl}}">{{title}}</a> {{{icon "next"}}}
+                {{/each}}
+              </div>
+            {{/with}}
+            <h2 class="category-parents-title">{{title}}</h2>
+          </div>
+          {{#if description}}
+            <h2 class="main-category-title">{{title}}</h2>
+            <h3 class="category-description">{{description}}</h3>
+          {{/if}}
+          {{#if image}}
+            <img class="category-image" src="{{image}}" alt=""/>
+          {{/if}}  
+          {{#if facebookPage}}
+            <div align="right" class="category-social-link">
+             <a style="font-weight: normal !important;" href="//{{aboutCategory}}" target="_blank">{{_ "about_category_page"}} StoryFeed {{title}}</a> I
+             <a style="font-weight: normal !important;" href="https://www.facebook.com/{{facebookPage}}" target="_blank">{{{icon "facebook"}}}/{{facebookPage}}</a> I
+             <a style="font-weight: normal !important;" href="//twitter.com/{{twitterPage}}" target="_blank">{{{icon "twitter"}}}/{{twitterPage}}</a>
+            </div> 
+          {{/if}}
+             <div class="popup" align="left" onclick="popupfunction()">{{_ "embed </>"}}
+             <span class="popuptext" id="myPopup">Copy and paste this code into your website
+               <div class="codebox">
+                <code>   
+                &lt;div style="background:#c0c0c0; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; padding:0; width:-webkit-calc(100% - 2px); width: 290px; height: 550px;"&gt;
+&lt;iframe src="http://www.storyfeed.co/?cat%5B0%5D={{title}}" style=" width: 290px; height: 500px; border:0;"&gt;&lt;/iframe&gt;&lt;div style="display: block; color: white; padding: 10px; font-size: 11px; font-family: Helvetica; text-decoration: none;" &gt; Visit &lt;a href="http://storyfeed.co/" target="_blank" style="color: white"&gt;www.storyfeed.co&lt;/a&gt; to vote and comment.&lt;br/&gt;Storyfeed I Copyrigth © 2016&lt;/div&gt;&lt;/div&gt;​
+                </code>
+               </div>
+             </span>
+             </div>
+        </div>
+      {{/each}}
+    </div>
+  {{/if}}
+</template>
+

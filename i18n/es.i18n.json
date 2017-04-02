@@ -1,0 +1,76 @@
+{
+  "this_link_has_already_been_posted" : "Lo Sentimos, este link ya fue compartido, intenta compartir una nueva historia.",
+  "top" : "Populares",
+  "best": "Más Votadas",
+  "new" : "Nuevo",
+  "daily": "Diario",
+  "post" : "Publicar",
+  "body" : "Descripción",
+  "url" : "Link hacia la Historia",
+  "submit" : "Publicar",
+  "password" : "Contraseña",
+  "sign_in" : "Registrarse/Entrar",
+  "sign_in_" : "Entrar",
+  "you_have_been_logged_out" : "Acaba de cerrar sesión.",
+  "submitted_posts" : "Post Compartidos",
+  "upvoted_posts" : "Posts votados a favor",
+  "downvoted_posts" : "Posts votados en contra",
+  "instagramUsername" : "Instagram",
+  "twitterUsername" : "Twitter",
+  "suggestions" : "Ubicaciones Sugeridas",
+  "location" : "Locación",
+  "global" : "Ubicación",
+  "topic" : "Tema",
+  "source" : "Fuente",
+  "pick_suggested" : "Ubicación Sugerida",
+  "pick_topic" : "Elige el tema",
+  "pick_source" : "Elige la fuente",
+  "pick_other_location" : "A donde pertenece tu post?",
+  "alltopics" : "Todos los temas",
+  "allsources" : "Todas las fuentes",
+  "sorry_we_couldnt_find_any_posts" : "Lo sentimos, no hay publicaciones en esta ubicación, sé el primero en compartir algo!",
+  "discussion_page" : "DISCUSIÓN",
+  "go_to_article" : "(ir a link)",
+  "about_category_page" : "Acerca",
+    "please_fill_in_embedly_key" : "Cargando imagen",
+
+
+  //Notifications
+  "thanks_your_post_is_awaiting_approval" : "Gracias, su publicación esta esperando aprobación. StoryFeed aprueba todas las historias excepto spam. Por lo general la aprobación tarda cuestión de minutos, se le notificará por correo electrónico.",
+  "please_help_me_with_a_vote" : "Por favor ayúdame con un voto",
+  "congrats" : "Felicidades! 🎉 ",
+
+
+  "discuss_story" : "Discusión",
+
+  "share_with_friends_so_help_you_vote" : "Comparte tu historia con tus amigos para que te ayuden a votar!",
+
+  "share_post" : "Compartir:",
+
+  //// CUSTOM POST SUBMIT HTML ////
+  "remember_to_categorize_your_story_in_the_most_specific_and_correct_way_possible" : "Recuerda categorizar tu publicación de la manera más correcta y específica posible,",
+  "country_city_source_and_topic_of_the_story" : "la ubicación y el tema de la historia.",
+  "stories_correctly_categorized_get_more_upvotes" : "Las publicaciones correctamente categorizadas reciben más votos. Buena Suerte!",
+  //// END ////
+
+  ////// HELLO HTML  /////
+  "welcome" : "Bienvenido ",
+  "this_is_a_community_of_people_who_love_to_share_and_discover_stories" : "Acá puedes compartir y votar por las historias más importantes de tu ciudad.",
+  "have_a_great_story_share_it_with_the_entire_world" : "Tienes una buena historia? Compartela con toda tu ciudad y el mundo!",
+  "the_most_voted_of_the_day" : "Recibe las historias más votadas del día en tu mail, Cada día.",
+  "subscribe_to_the_newsletter" : "Subscríbete a el Newsletter",
+  ////// END  /////
+
+  ////// ANNOUNCEMENTS /////
+  "announcement_1" : "Comparte algo con Nueva York.",
+  ////// END /////
+
+
+  ////// FOOTER /////
+  "company_terms" : "Terminos",
+  "company_privacy" : "Privacidad",
+  "company_about_product" : "Acerca"
+  ////// END /////
+
+  
+}
